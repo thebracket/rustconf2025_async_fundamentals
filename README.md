@@ -1,4 +1,4 @@
-# RustConf 2025 - Async Foundations
+# RustConf 2025 - Async Fundamentals
 
 ![Ardan Labs Logo](manual/src/ardanlabs-logo.png)
 
