@@ -1,0 +1,23 @@
+[package]
+name = "code"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = [ 
+    "axum_hello", 
+    "axum_hello_json", 
+    "axum_layered", 
+    "axum_post_json_body", 
+    "axum_poster", 
+    "axum_with_my_actor", 
+    "backpressure", 
+    "hello_tonic", "hello_tonic_actor", 
+    "shared_state_actor", 
+    "tcp_server3_sync", 
+    "tcp_server4_async",
+    "tcp_server_client", 
+    "tcp_server_client2"
+]

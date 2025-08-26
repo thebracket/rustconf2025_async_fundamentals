@@ -1,0 +1,10 @@
+[package]
+name = "axum_with_my_actor"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.8.4"
+serde = { version = "1.0.219", features = ["derive"] }
+tokio = { version = "1.47.1", features = ["full"] }
+shared_state_actor = { path = "../shared_state_actor" }

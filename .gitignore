@@ -1,0 +1,6 @@
+# mdbook compiled output
+manual/book/
+
+# Rust build artifacts
+target/
+**/target/
